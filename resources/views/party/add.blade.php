@@ -150,7 +150,7 @@
                     <br>
 
                     <button class="btn btn-primary" type="submit">Submit</button>
-                    <button class="btn btn-secondary" type="reset">Reset</button>
+                    
                 </form>
             </div>
         </div>
