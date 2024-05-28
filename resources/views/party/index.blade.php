@@ -40,22 +40,7 @@
                         <h4 class="header-title mb-4 text-uppercase">Manage Clients</h4>
                         <div class="row">
                             <div class="col-sm-12 col-md-10">
-                                <div class="dataTables_length" id="alternative-page-datatable_length"><label>Show
-                                        <select name="alternative-page-datatable_length"
-                                            aria-controls="alternative-page-datatable"
-                                            class="custom-select custom-select-sm form-control form-control-sm">
-                                            <option value="10">10</option>
-                                            <option value="25">25</option>
-                                            <option value="50">50</option>
-                                            <option value="100">100</option>
-                                        </select> entries</label></div>
-                            </div>
-                            <div class="col-sm-12 col-md-2">
-                                <div id="alternative-page-datatable_filter" class="dataTables_filter">
-                                    <label>Search:<input type="search" class="form-control form-control-sm"
-                                            placeholder="" aria-controls="alternative-page-datatable"></label>
-                                </div>
-                            </div>
+                                
                         </div>
                         <table class="table table-hover m-0 table-centered dt-responsive nowrap w-100 table-bordered"
                             id="tickets-table">
