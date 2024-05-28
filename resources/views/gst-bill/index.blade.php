@@ -89,9 +89,9 @@
 
                                     <td>
                                         <ul class="list-unstyled">
-                                            <li><b>Total Amount :</b><span>₹{{ $bill->total_amount }} </span></li>
-                                            <li><b>TAX :</b><span>₹{{ $bill->tax_amount }} </span></li>
-                                            <li><b>Net Amount :</b><span>₹{{ $bill->net_amount }} </span></li>
+                                            <li><b>Total Amount :</b><span>৳{{ $bill->total_amount }} </span></li>
+                                            <li><b>TAX :</b><span>৳{{ $bill->tax_amount }} </span></li>
+                                            <li><b>Net Amount :</b><span>৳{{ $bill->net_amount }} </span></li>
                                         </ul>
                                     </td>
                                         
