@@ -131,16 +131,16 @@
                         <div class="col-md-3">
                             <ul style="list-style: none;float: right;">
                                 <li>
-                                    <b>Total Amount:</b> ₹ <span type="text"
+                                    <b>Total Amount:</b> ৳ <span type="text"
                                         id="totalAmountDisplay">0</span>
                                 </li>
                                 <li>
-                                    <b>Tax:</b> ₹ <span type="text" id="taxDisplay">0</span>
+                                    <b>Tax:</b> ৳ <span type="text" id="taxDisplay">0</span>
                                     <input type="hidden" value="0" name="tax_amount"
                                         id="taxAmount">
                                 </li>
                                 <li>
-                                    <b>Net Amount:</b> ₹ <span type="text"
+                                    <b>Net Amount:</b> ৳ <span type="text"
                                         id="netAmountDisplay">0</span>
                                     <input type="hidden" value="0" name="net_amount" id="netAmount">
                                 </li>
