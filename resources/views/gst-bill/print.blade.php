@@ -118,7 +118,7 @@
                                 <td>
                                             <b>{{ $bill->item_description }}</b>
                                         </td>
-                                        <td class="text-center">₹{{ $bill->net_amount }}</td>
+                                        <td class="text-center">৳{{ $bill->net_amount }}</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -137,19 +137,16 @@
                 </div> <!-- end col -->
                 <div class="col-sm-6 col-lg-3 mt-1">
                     <ul class="list-unstyled">
-                        <li><b>Total :</b> <span class="float-right"><i
-                                    class="fas fa-rupee-sign"></i>  {{ $bill->total_amount }}</span></li>
-                        <li><b>CGST :</b><span class="float-right"><i class="fas fa-rupee-sign"></i>
+                        <li><b>Total :</b> <span class="float-right">  ৳{{ $bill->total_amount }}</span></li>
+                        <li><b>CGST :</b><span class="float-right">৳
                         {{ $bill->cgst_amount }}   </span></li>
-                        <li><b>SGST :</b><span class="float-right"><i class="fas fa-rupee-sign"></i>
+                        <li><b>SGST :</b><span class="float-right">৳
                         {{ $bill->sgst_amount }} </span></li>
-                        <li><b>IGST :</b><span class="float-right"><i class="fas fa-rupee-sign"></i>
+                        <li><b>IGST :</b><span class="float-right">৳
                         {{ $bill->igst_amount }} </span></li>
-                        <li><b>Total Tax :</b><span class="float-right"><i
-                                    class="fas fa-rupee-sign"></i> {{ $bill->tax_amount }} </span>
+                        <li><b>Total Tax :</b><span class="float-right">৳ {{ $bill->tax_amount }} </span>
                         </li>
-                        <li><b>Net  Amount :</b><span class="float-right"><i
-                                    class="fas fa-rupee-sign"></i> {{ $bill->net_amount }}</span>
+                        <li><b>Net  Amount :</b><span class="float-right">৳ {{ $bill->net_amount }}</span>
                         </li>
                     </ul>
                     <div class="clearfix"></div>
